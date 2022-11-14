@@ -490,6 +490,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+}
+
 .border {
   border-width: 1px;
 }
@@ -607,4 +613,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .decoration-emerald-500 {
   -webkit-text-decoration-color: #10b981;
           text-decoration-color: #10b981;
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.outline-red-500 {
+  outline-color: #ef4444;
 }
