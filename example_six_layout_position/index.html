@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Layout and Position</title>
+</head>
+
+<body>
+  <!-- positioning -->
+  <div class="relative w-1/2 h-12 bg-red-200">
+    <p>Parent Element</p>
+    <div class="absolute bottom-0 right-0 bg-red-500">
+      <p>Absolute Child</p>
+    </div>
+
+  </div>
+  <!-- top left corner -->
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300">
+    </div>
+  </div>
+  <!-- top right corner -->
+  <br>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300">
+    </div>
+  </div>
+  <!-- bottom left corner -->
+  <br>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300">
+    </div>
+  </div>
+  <!-- bottom right corner -->
+  <br>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300">
+    </div>
+  </div>
+
+  <!-- span top edge -->
+  <br>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute inset-x-0 top-0 h-16 bg-yellow-300">
+    </div>
+  </div>
+  <!-- span left edge -->
+  <br>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute inset-y-0 left-0 w-16 bg-yellow-300">
+    </div>
+  </div>
+  <!-- span right edge -->
+  <br>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute inset-y-0 right-0 w-16 bg-yellow-300">
+    </div>
+  </div>
+  <!-- span bottom edge -->
+  <br>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300">
+    </div>
+  </div>
+  <!-- display classes -->
+  <div>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="inline"><strong>This is
+        inline</strong></span> Dolor optio
+    tempore necessitatibus
+    possimus quoaepe corporis, officia vel omnis odio, nostrum placeat <span class="inline-block"><strong>This is
+        inline-block </strong></span>
+    aperiam sint quaerat officiis facilis rerum nulla dolorem soluta <span class="block"><strong>This is
+        block</strong></span>sapiente
+    nobis recusandae? Ad labore alias
+    impedit, repellendus et natus <span class="hidden"><strong>This is hidden </strong></span>suscipit nulla dolor
+    adipisci maiores sit
+    perspiciatis amet ducimus inventore rerum officiis eveniet. Sunt ipsam sit officia nulla.
+  </div>
+  <br>
+  <!-- z-index -->
+  <div class="relative h-36">
+    <div class="absolute left-10 w-24 h-24 bg-blue-300 mb-4 z-40">1</div>
+    <div class="absolute left-20 w-24 h-24 bg-blue-400 mb-4">2</div>
+    <div class="absolute left-40 w-24 h-24 bg-blue-500 mb-4 z-10">3</div>
+    <div class="absolute left-60 w-24 h-24 bg-blue-600 mb-4 z-20">4</div>
+    <div class="absolute left-80 w-24 h-24 bg-blue-700 mb-4 z-30">5</div>
+  </div>
+
+  <!-- floats -->
+
+  <div class="w-1/2">
+    <img class="w-48 h-48 float-left m-4" src="../img/img1.jpg" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, suscipit voluptas voluptatibus sed enim modi
+      aperiam veritatis nulla praesentium quam commodi incidunt adipisci quos repellendus unde exercitationem sequi
+      totam, quasi libero excepturi? Consectetur, unde voluptatum recusandae praesentium voluptatibus mollitia quam
+      quisquam maiores hic delectus blanditiis eius dignissimos accusamus eveniet sit quod nemo quo libero temporibus
+      amet? Quas, cumque. Maxime nobis, incidunt a enim odit ullam dicta quis ipsam voluptatum in facere debitis eos
+      assumenda cumque sequi, officia ea laboriosam. Excepturi libero tenetur atque obcaecati assumenda. Odit beatae
+      fuga et unde consequuntur id incidunt molestias, laboriosam voluptatem voluptates, exercitationem, quidem aliquam!
+    </p>
+  </div>
+</body>
+
+</html>
