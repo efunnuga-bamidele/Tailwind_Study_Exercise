@@ -1,14 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Simple Tailwind Starter</title>
-  </head>
-  <body>
-    <h1 class="text-4xl mb-4">Welcome</h1>
-    <p>Start building your Tailwind project</p>
-  </body>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Utiltiy First</title>
+</head>
+
+<body class="container mx-auto">
+  <div class="mx-5">
+    <h1 class="text-4xl mb-4">Interactivity</h1>
+
+    <!-- Hover State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg hover:bg-red-600 hover:text-white">Submit</button>
+
+    <!-- Focus State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg focus:bg-green-600 focus:text-white">Submit</button>
+
+    <!-- Active State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg active:bg-blue-600 active:text-white">Submit</button>
+
+
+    <!-- Styling based on parent state -->
+    <a href="" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card text</p>
+    </a>
+
+    <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-red-200 even:bg-orange-500 odd:bg-green-400">Item 1</li>
+      <li class="first:bg-red-200 even:bg-orange-500 odd:bg-green-400">Item 2</li>
+      <li class="first:bg-red-200 even:bg-orange-500 odd:bg-green-400">Item 3</li>
+      <li class="first:bg-red-200 even:bg-orange-500 odd:bg-green-400">Item 4</li>
+      <li class="first:bg-red-200 even:bg-orange-500 odd:bg-green-400">Item 5</li>
+      <li class="first:bg-red-200 even:bg-orange-500 odd:bg-green-400">Item 6</li>
+    </ul>
+
+    <!-- Appearance -->
+    <select class="appearance-none">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+
+    <!-- Cursor -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg">
+      Submit
+    </button>
+    <button class="bg-black text-white py-3 px-5 rounded-lg cursor-wait">
+      Submit
+    </button>
+    <button class="bg-black text-white py-3 px-5 rounded-lg cursor-help">
+      Submit
+    </button>
+    <button class="bg-black text-white py-3 px-5 rounded-lg cursor-not-allowed">
+      Submit
+    </button>
+    <button class="bg-black text-white py-3 px-5 rounded-lg cursor-progress">
+      Submit
+    </button>
+
+
+    <a href="#item" class="block my-6">Go To Item</a>
+    <!-- Smoot Scrolling -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia quam voluptatibus voluptatum placeat assumenda
+      delectus, voluptas ea est fugiat maiores. Ducimus et quaerat illum autem, quisquam facilis nulla quas recusandae
+      quibusdam voluptatem! Asperiores, esse perferendis vero ab rem quisquam sit ipsam est cupiditate temporibus
+      quibusdam numquam recusandae nulla iure adipisci aliquam! Et necessitatibus laboriosam, non inventore asperiores
+      dolores qui facere dignissimos tempore ratione hic explicabo natus ad accusamus veniam quo quis. In possimus est
+      fugit assumenda deleniti perferendis impedit velit, eveniet perspiciatis, itaque aperiam! Nam error ipsum, autem
+      quos enim delectus cum, molestiae quisquam eius earum ducimus reprehenderit aut excepturi, quas nesciunt commodi
+      officiis asperiores sint animi ipsam voluptate rerum similique sed! Perferendis vel est dolore eum aliquam. Ipsum
+      asperiores temporibus dolorum labore facilis, autem fugit! Mollitia aspernatur error dignissimos iusto porro iure
+      quidem ut accusamus, nostrum reiciendis possimus tempora sed necessitatibus voluptas eum vitae culpa rem! Dolor
+      aperiam, assumenda quo magnam eaque velit at pariatur sequi dolorem commodi dolores maxime, aut laborum,
+      cupiditate quia. Perferendis, natus ipsum. Voluptatem suscipit ut molestiae molestias, facere magni neque deserunt
+      odio asperiores? Voluptas iusto officia hic omnis quia necessitatibus consectetur, dolorum asperiores obcaecati,
+      deleniti vero reiciendis iure facere. Assumenda inventore distinctio ullam nam! Est sed laboriosam provident nihil
+      explicabo doloremque dolore accusamus odio deleniti expedita rem, recusandae sunt quas hic culpa vitae tempora,
+      ipsam aperiam, velit id minima. Dolorum architecto, debitis veniam corporis minus illum praesentium voluptatum non
+      iusto. Vero, ullam itaque, tempora voluptas quaerat recusandae ratione culpa provident nulla adipisci natus.
+      Ratione a quaerat laudantium similique harum! Consequuntur ut consectetur eius quo aspernatur possimus dignissimos
+      soluta, illo accusamus. Eius labore molestias minus quisquam dignissimos vel, repellat ullam nemo dicta iste,
+      itaque rem quia fuga odio vitae dolores rerum nobis fugiat expedita. Itaque sequi odio rerum. Aliquid amet illum
+      autem vitae rerum doloribus
+      cupiditate
+      facere. Itaque dicta iusto perferendis fugiat obcaecati laudantium minima aliquid pariatur, nihil placeat
+      reiciendis soluta ipsam impedit consectetur reprehenderit asperiores quas velit. Ipsam modi sed aperiam harum quo
+      suscipit deleniti ipsa minus enim esse qui, quidem in eveniet provident accusamus error cum explicabo ducimus
+      velit rem quaerat natus facere molestias eaque? Aspernatur optio delectus quos ipsa officia ab facere inventore
+      eveniet. Ducimus aliquam praesentium culpa quam quidem. Deserunt repellat dolores tenetur eveniet sint ad
+      excepturi reprehenderit obcaecati eius alias, est aliquid cum labore officiis? Quis optio doloribus quisquam
+      tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quibusdam perspiciatis quo? Unde,
+      ullam
+      quibusdam minima quisquam aut recusandae enim quis repudiandae! Aspernatur, fugiat debitis. Delectus ipsam dolore
+      corporis quisquam ipsum, tempore quas exercitationem ad, nesciunt a quos repellat saepe explicabo. Magni, in dicta
+      ipsa debitis repudiandae nisi similique repellendus incidunt reiciendis eaque obcaecati facilis? Laudantium quia,
+      blanditiis earum saepe odio, dolor eius accusamus soluta culpa eveniet temporibus modi odit illo nostrum ratione
+      fuga exercitationem doloribus illum optio enim nulla. Placeat, consectetur soluta itaque rem exercitationem vel
+    <div class="text-red-300" id="item">accusantium esse velit?</div> Atque eius nihil laborum excepturi error magni
+    molestiae porro consequuntur quidem dignissimos ad quasi excepturi aperiam quam aut. Ea, quod saepe voluptatibus
+    ipsam cumque repellendus nesciunt neque nam vitae? Iste, sapiente. Quam laudantium sunt, iure doloremque possimus ex
+    quasi nam omnis labore maiores fugit itaque ea officia delectus corporis ipsam praesentium. Vel voluptatem, ab
+    maxime mollitia, ratione nostrum necessitatibus libero maiores ipsam pariatur inventore delectus porro cum dolore
+    officia eum expedita eligendi neque quae quis sunt quas, odio quam tempore. Distinctio praesentium recusandae
+    quaerat et blanditiis error temporibus, earum, beatae, qui ipsa iste eaque exercitationem est. In dolorem
+    necessitatibus voluptates similique omnis! Repellendus facilis incidunt nam omnis? Rem quas iusto molestiae amet,
+    eveniet quam fugit nihil quae, dignissimos, voluptate a incidunt. Sit, eaque iste officia, dolor rem ratione
+    eligendi sapiente laboriosam illo voluptas similique est? Eum laboriosam quisquam, esse tenetur dolorem ad ex
+    consequuntur fugiat, eius hic quo dolores. Sapiente voluptas nihil odit vero deserunt consequuntur voluptates est
+    unde iusto nesciunt. Ab quaerat quibusdam temporibus ducimus nobis voluptas et magnam. Quibusdam atque deserunt quod
+    nostrum magni. Dolor ratione consequuntur animi, fugit dolorum, enim sapiente officiis accusamus, placeat
+    exercitationem veniam ipsum pariatur consequatur. Delectus magni optio consequuntur ratione fugiat dolores incidunt
+    error, cum minus, assumenda quam inventore autem eligendi aperiam voluptatem architecto laborum nesciunt quas magnam
+    unde! Unde blanditiis quas animi tenetur itaque odio quae sed. Eum aspernatur modi esse corporis ducimus sapiente
+    dolore autem cupiditate debitis praesentium fugit odio, rerum hic! Ab dolores libero adipisci illum distinctio ex.
+    Modi natus atque impedit assumenda error nesciunt. Reiciendis fugiat nobis esse aperiam. Rem animi consequatur quas
+    asperiores reprehenderit quo earum obcaecati nesciunt assumenda doloribus, veritatis aperiam corporis beatae in!
+    Accusamus in, dolores neque iste obcaecati inventore corporis quas deserunt ea fuga eveniet totam minus libero
+    doloremque aspernatur, dolore natus quis maxime veniam adipisci ratione repudiandae perspiciatis aliquam? Maxime
+    incidunt a beatae veritatis eveniet assumenda natus reiciendis facere excepturi consectetur, suscipit, voluptatibus
+    magni voluptatem in accusantium velit culpa. Sapiente cupiditate, porro a necessitatibus deleniti unde blanditiis
+    quam nemo minima eum dolore illum corrupti aliquid adipisci deserunt quas ipsum animi optio quisquam nobis totam
+    consectetur. Ratione ipsa, perferendis iusto repellendus quibusdam corrupti dignissimos nostrum provident rerum
+    voluptate praesentium? Deleniti fugit, facere maxime culpa dignissimos aliquid vel eum odit expedita, molestiae
+    fugiat modi ratione? Error quas placeat nemo nesciunt natus ipsum reiciendis aspernatur ad reprehenderit, molestias
+    eius eligendi commodi nostrum quia impedit excepturi fugiat aliquam consequatur praesentium quidem totam sequi!
+    Cupiditate, consequatur deserunt eaque est eius sint excepturi ipsa nihil dignissimos tempore quam cumque
+    consequuntur.</p>
+
+  </div>
+  </div>
+</body>
+
 </html>
